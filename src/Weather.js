@@ -1,7 +1,8 @@
 import React from "react"
 
-export default function Weather() {
-    return( <div className="Weather">
+export default function Weather(){
+    return(
+        <div className="Weather">
         <form>
             <div className="row">
             <div className="col-9">
@@ -34,5 +35,7 @@ export default function Weather() {
                 <p>Presipitation:15%</p>
             </div>
         </div>
-    </div>)
+    </div>
+    
+    )
 }
