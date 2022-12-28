@@ -1,1 +1,60 @@
+.weather {
+    border: 1px solid #6b39622a;
+    border-radius: 4px;
+    padding: 20px;
+    background: rgba(32, 14, 29, 0.589);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(226, 235, 234);
 
+}
+.weather form {
+    display: flex;
+    justify-content: center;
+} 
+
+.btn-primary {
+   background-color:  rgb(226, 235, 234);
+   border: 1px solid rgb(226, 235, 234);
+   color: rgb(6, 6, 43);
+}
+
+
+.weather h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 48px;
+    margin: 20px 0 0 0;
+}
+
+.weather p {
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: -20px;
+    margin-bottom: 70px;
+    
+}
+.weather image {
+    display: inline;
+    vertical-align: middle;
+    height: 64px;
+    width: 64px;
+}
+.weather .temp {
+    display: inline;
+    vertical-align: middle;
+    padding-left:10px;
+    font-size: 64px;
+    font-weight: 600;
+
+}
+.weather .unit {
+    font-size: 22px;
+    position: relative;
+    top: -10px;
+    line-height: 1;
+    margin-left: 5px;
+}
+.description p {
+    font-size: 22px;
+   
+}
