@@ -33,11 +33,9 @@
     margin-bottom: 70px;
     
 }
-.weather image {
+.weather canvas {
     display: inline;
     vertical-align: middle;
-    height: 64px;
-    width: 64px;
 }
 .weather .temp {
     display: inline;
