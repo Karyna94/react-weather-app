@@ -10,7 +10,7 @@ return( <div className="WeatherInfo">
     <h1>{props.data.city}</h1>
 </div>
 <div className="col-6 text-center">
-  <WeatherIcon code={props.data.icon}/>
+  <WeatherIcon code={props.data.icon} size={52}/>
   <WeatherTemperature celsius={props.data.temperature}/>
 </div>
 </div>
