@@ -13,7 +13,7 @@ export default function App() {
       </video>
       <Weather defaultCity="New York" />
       <footer>
-        This project was coded by Karyna Trotsenko <a href="https://github.com/Karyna94/react-weather-app" target="_blank" rel="noreferrer" >open-sourced on GitHub</a> 
+        This project was coded by Karyna Trotsenko <a href="https://github.com/Karyna94/react-weather-app" target="_blank" rel="noopener noreferrer" >open-sourced on GitHub</a> 
       </footer>
     </div>
   );

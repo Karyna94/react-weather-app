@@ -24,14 +24,11 @@ return( <div className="WeatherInfo">
 </div>
 <div className="description">
 <div className="row">
-<div className="col-4 text-center">
+<div className="col-6 text-center">
     <p>Humidity: {props.data.humidity}%</p>
 </div>
-<div className="col-4 text-center">
+<div className="col-6 text-center">
     <p>Wind: {Math.round(props.data.wind)}m/s</p>
-</div>
-<div className="col-4 text-center">
-    <p>Presipitation:{props.data.presipitation}%</p>
 </div>
 </div>
 </div>
